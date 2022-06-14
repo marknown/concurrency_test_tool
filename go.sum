@@ -1,0 +1,12 @@
+github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394 h1:OYA+5W64v3OgClL+IrOD63t4i/RW7RqrAVl9LTZ9UqQ=
+github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394/go.mod h1:Q8n74mJTIgjX4RBBcHnJ05h//6/k6foqmgE45jTQtxg=
+github.com/dghubble/sling v1.4.0 h1:/n8MRosVTthvMbwlNZgLx579OGVjUOy3GNEv5BIqAWY=
+github.com/dghubble/sling v1.4.0/go.mod h1:0r40aNsU9EdDUVBNhfCstAtFgutjgJGYbO1oNzkMoM8=
+github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/go-querystring v1.1.0 h1:AnCroh3fv4ZBgVIf1Iwtovgjaw/GiKJo8M8yD/fhyJ8=
+github.com/google/go-querystring v1.1.0/go.mod h1:Kcdr2DB4koayq7X8pmAG4sNG59So17icRSOU623lUBU=
+github.com/marknown/util v1.0.3 h1:hrSHn8zUkfYFiWuTUw1w9HqIz9pKMl1S2uzvvLjUYCU=
+github.com/marknown/util v1.0.3/go.mod h1:4t+JIMMU6Wu35GV3E6KSX9bLNYWfop+sGTQXJVMHtaM=
+github.com/marknown/utils v1.1.9 h1:/+NpT7zxnmiTTjJqG3qmCsifjzcncSoVXLzT+rt555c=
+github.com/marknown/utils v1.1.9/go.mod h1:Dd6TxYWPHPx/s04Nhl8EPUBdvBKe3yYerODwwgDvhlY=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
