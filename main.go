@@ -40,11 +40,11 @@ func main() {
 			h1{font-size:16px;display:inline;}
 			.desc{font-size:10px;line-height:14px;}
 			#main{width:1280px;margin:auto;}
-			#main div {line-height:20px;}
+			#main div {line-height:20px;font-size:10px;}
 			#tips{font-size:10px;}
-			#main .action{font-size: 10px;margin-top:10px;}
+			#main .action{font-size:10px;margin-top:10px;}
 			.input-start{width:120px;height:20px;font-size:12px;}
-			.source{width:100%;}
+			.source{width:100%;font-size:10px;}
 			.operate{text-align:center;}
 			.submit{color:#fff;background-color:#67c23a;border-color:#67c23a;border-radius: 3px;padding:2px 10px;font-size:10px;}
 			.submit-disabled{color:#fff;background-color:#dedede;border-color:#dedede;border-radius: 3px;padding:2px 10px;font-size:10px;}
@@ -161,12 +161,17 @@ func main() {
 					<option value="300">300ms</option>
 					<option value="500">500ms</option>
 					<option value="1000">1000ms</option>
-				</select>在指定时间的前多少毫秒执行
-				<textarea id="source" class="source" rows="30"></textarea>
-
-				
+				</select>在指定时间的前多少毫秒执行。
 			</div>
-			<div class="operate"><input id="submitButton" type="button" value="提交" class="submit" onclick="submit()" /></div>
+			<div>
+				占位符1：<span>&#123&#123unixTimestamp&#125&#125 毫秒时间戳 例如：1655301568</span> 占位符2：<span>&#123&#123unixTimestampMillisecond&#125&#125 毫秒时间戳 例如：1655301568510</span>
+			</div>
+			<div>
+				<textarea id="source" class="source" rows="30"></textarea>
+			</div>
+			<div class="operate">
+				<input id="submitButton" type="button" value="提交" class="submit" onclick="submit()" />
+			</div>
 			<div id="tips"></div>
 		</div>
 	</body>
