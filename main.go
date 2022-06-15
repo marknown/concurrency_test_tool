@@ -231,6 +231,14 @@ func main() {
 		}
 
 		source := r.FormValue("source")
+
+		// 添加占位符替换
+		unixTimestampNano := time.Now().UnixNano()
+		unixTimestamp := unixTimestampNano / 1000000000
+		unixTimestampMillisecond := unixTimestampNano / 1000000
+		source = strings.ReplaceAll(source, "{{unixTimestamp}}", fmt.Sprintf("%d", unixTimestamp))
+		source = strings.ReplaceAll(source, "{{unixTimestampMillisecond}}", fmt.Sprintf("%d", unixTimestampMillisecond))
+
 		if !strings.Contains(source, "curl") {
 			res.Success = false
 			res.Message = "请粘贴从浏览器复制出的完整CURL信息"
